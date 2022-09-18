@@ -1,4 +1,4 @@
-
+#include "easy.h"
 
 bool itc_iseven(int num){
     return num % 2 == 0;
