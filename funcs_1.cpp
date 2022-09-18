@@ -1,3 +1,5 @@
+#include "easy.h"
+
 double itc_pow(int num, int step){
     int n = num;
     for (int i = 0; i < step - 1; i++){
