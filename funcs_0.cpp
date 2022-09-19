@@ -17,8 +17,11 @@ int itc_spr(int a, int b){
 
 int itc_sqrt(int num){
     int i = 1;
-    if (num < 0 || num >= 2147483648)
+    if (num < 0 || num > 46340)
         return -1;
+    else if (num == 0){
+        return 0;
+    }
     while (i < num){
         if (i * i == num){
             return i;
