@@ -25,7 +25,7 @@ int itc_sqrt(int num){
 }
 
 int itc_str(int a, int b, int c){
-    if (a <= b + c && b <= a + c && c <= b + a){
+    if ((a < b + c && b < a + c && c < b + a) && (a > 0 && b > 0 && c > 0)){
         double p = 0.5 * (a + b + c);
         return itc_sqrt(p * (p - a) * (p - b) * (p - c));
     }else{
@@ -33,6 +33,7 @@ int itc_str(int a, int b, int c){
     }
 
 }
+
 double itc_scir(int radius){
     if (radius > 0){
         return 3.14 * (radius * radius);

@@ -1,5 +1,5 @@
-#include <iostream>
-#include "easy.h"
+//#include <iostream>
+//#include "easy.h"
 
 void itc_name(){
     std::cout << "Stephan";
