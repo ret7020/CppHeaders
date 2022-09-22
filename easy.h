@@ -1,3 +1,6 @@
+#ifndef EASY_H_EASY_H
+#define EASY_H_EASY_H
+
 void itc_name();
 void itc_fio();
 int itc_abs(int num);
@@ -16,3 +19,4 @@ double itc_pow(int num, int step);
 bool itc_ispositive(int num);
 bool itc_ispositive_d(double num);
 int itc_sqrt(int num);
+#endif 

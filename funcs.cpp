@@ -1,4 +1,3 @@
-#include <iostream>
 #include "easy.h"
 
 bool itc_iseven(int num){
